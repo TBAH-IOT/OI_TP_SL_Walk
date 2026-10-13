@@ -1,6 +1,6 @@
 # OI_WALK
 
-Package tối giản gồm một file code `OI_TP_SL_WALK.py` và snapshot data cần thiết để chạy.
+
 
 Logic:
 
@@ -8,7 +8,7 @@ Logic:
 - Vào lệnh tại `open` nến `t+1`.
 - TP `1%`, SL `0.1%`, phí round-trip `0.1%`.
 - Train từ `2026-05-01`, test từ `2026-06-01`.
-- Mặc định chọn top 20 coin.
+- Chọn top 30 coin.
 - Kết quả chỉ gồm TP/SL và Sharpe theo lợi nhuận ngày.
 
 ## Chạy

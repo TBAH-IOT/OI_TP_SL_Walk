@@ -65,6 +65,6 @@ python .\OI_TP_SL_WALK_Chart.py
 
 Mở `http://127.0.0.1:8765`. Chart hỗ trợ chọn coin, khoảng thời gian, số dư ví ban đầu, xem marker trigger/entry/exit và số dư sau từng lệnh.
 
-## Lưu ý dữ liệu
+## Dữ liệu đi kèm
 
-Cache dữ liệu không được commit lên GitHub vì dung lượng lớn và có thể chứa dữ liệu riêng của người dùng. Mỗi thành viên cần tự tạo cache bằng API key của họ.
+Repository có kèm snapshot OI và OHLC cần thiết để chạy ngay, được lưu bằng Git LFS vì dung lượng lớn. API key chỉ cần khi muốn cập nhật dữ liệu mới; tuyệt đối không ghi key vào code hoặc commit.

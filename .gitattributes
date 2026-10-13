@@ -1,0 +1,2 @@
+data/gfi_oi_5m_30coins_cache/*.csv filter=lfs diff=lfs merge=lfs -text
+data/hl_ohlc_5m/*.csv filter=lfs diff=lfs merge=lfs -text

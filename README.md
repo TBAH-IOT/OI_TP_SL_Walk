@@ -9,7 +9,7 @@ Logic:
 - TP `1%`, SL `0.1%`, phí round-trip `0.1%`.
 - Train từ `2026-05-01`, test từ `2026-06-01`.
 - Chọn top 30 coin.
-- Kết quả chỉ gồm TP/SL và Sharpe theo lợi nhuận ngày.
+- Kết quả gồm Net_profit; Max DD; WInrate; Calmar_Ratio; Sharpe_Ratio.
 
 ## Chạy
 

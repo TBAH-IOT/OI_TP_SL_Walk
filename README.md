@@ -1,3 +1,11 @@
+# OI_Baseline
+
+Logic:
+- Tín hiệu OI tại nến `t`.
+- Vào lệnh tại `open` nến `t+1`.
+- Buy t+1 -- Sell t+12
+- Kết quả gồm Net_profit; Max DD; WInrate; Calmar_Ratio; Sharpe_Ratio.
+
 # OI_DCA_ATR
 
 Logic:

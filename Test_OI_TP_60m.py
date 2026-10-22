@@ -1,17 +1,3 @@
-"""Test OI signals with take-profit before the fixed 60m exit.
-
-Standalone script using the one-year GFI Hyperliquid OI cache. For every OI
-extreme event, it checks the next 12 five-minute marks:
-
-  - if price reaches TP before 60m, exit at the first hit;
-  - otherwise exit at the 60m close;
-  - compare this with the fixed 60m exit.
-
-The preferred trade direction for each signal is selected from the sign of
-the raw 60m mean return. This is an in-sample diagnostic; use a walk-forward
-threshold before treating it as a live rule.
-"""
-
 from __future__ import annotations
 
 import argparse

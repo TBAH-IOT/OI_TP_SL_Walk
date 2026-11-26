@@ -1,5 +1,18 @@
 # OI_Baseline
 
+## Live MVP handoff
+
+The coin-independent OI q01 LONG strategy, live event API, optional GFI/Hyperliquid
+feed adapter, and integration contract are in [mvp/README.md](mvp/README.md).
+Set `MVP_SYMBOLS` to any coins supported by the connected OI and price feeds;
+the 10-coin research universe is an example, not a rule in the strategy code.
+The live baseline enters at the next 5-minute candle open and exits after
+exactly 60 minutes, without TP/SL or automatic exchange orders.
+
+The mark-at-trigger research winrate is a different event study and is not
+used as the live trade winrate. Missing OI or price bars never become synthetic
+signals or PnL.
+
 Logic:
 - Tín hiệu OI tại nến `t`.
 - Vào lệnh tại `open` nến `t+1`.
